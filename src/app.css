@@ -13,9 +13,7 @@
     align-content:center;
     position: relative;
   }
-  .divDashboardspan{
-
-  }
+  
   .user_details{
       font-weight: 900;
       font-size: 50px;
@@ -26,12 +24,12 @@
       border:white solid 1px;
     
   }
-  .buttonlableadd {
-
-  }
+  
   .logout {
     color: white;
     padding-left: 20px;
+    font-size: 40px;
+    color: orange;
   }
   .table{
     width: 100%;

@@ -14,11 +14,15 @@ function AppMain() {
     const [input, searchInput] = useState();
     const userName = sessionStorage.getItem("userDetails");
     const [rows, setRows] = useState([]);
-
+    
 
     const displayPatient = () => {
         const headers = ['uuid', 'Name', 'Gender', 'Age', 'Birthdate', 'Dead', 'DeathDate', 'Causeofdeath'];
-
+        const history=useHistory;
+            const handleClick=(e)=>{
+                const id=e;
+                console.log(id)
+            }
         return (
             <div>
                 <Table >
@@ -31,7 +35,7 @@ function AppMain() {
                     </TableHead>
                     <TableBody>
                         {rows.map((row) => (
-                            <TableRow key={row.id}>
+                            <TableRow onClick={()=>handleClick(row.id)} key={row.id}>
                                 {Object.keys(row)
                                     .filter((key) => key !== 'id')
                                     .map((key) => {
@@ -40,14 +44,14 @@ function AppMain() {
                             </TableRow>
                         ))}
                     </TableBody>
-                </Table>);
+                </Table>
                 <Pagination
                     backwardText="Previous page"
                     forwardText="Next page"
                     itemsPerPageText="Items per page:"
                     page={1}
                     pageNumberText="Page Number"
-                    pageSize={10}
+                    pageSize={5}
                     pageSizes={[
                         5,
                         10,
@@ -63,15 +67,15 @@ function AppMain() {
     }
 
     const handleSearch = (e) => {
+        
         searchInput(e.target.value);
         axios.get(`http://10.50.80.115:8090/amrs/ws/rest/v1/patient?q=${input}&v=default&limit=10`,
             { header: { Authorization: `Basic ${userName}` } }).then(result => {
                 const patientResults = result.data.results;
-                patientResults.map(value =>
+                const results=patientResults.map(value =>{
 
-                    setRows(
-                        [
-                            {
+                    return {
+                       
                                 uuid: value.person.uuid,
                                 Name: value.person.display,
                                 Gender: value.person.gender,
@@ -81,10 +85,11 @@ function AppMain() {
                                 Dead: value.person.dead,
                                 DeathDate: value.person.deadDate,
                                 Causeofdeath: value.person.causeOfDeath,
-                            }])
+                    }
 
-
+                }
                 )
+                setRows(results)
 
             });
 
@@ -120,14 +125,14 @@ function AppMain() {
 
                     <span className="divDashboardspan">
 
-                        <Button type="Submit" className="buttonlableadd">Add Patient</Button>
+                        <Button type="Submit" onCLick={handleSubmit} className="buttonlableadd">Add Patient</Button>
                         <a className="logout" onClick={Logout} href="#">Logout</a>
                     </span>
 
                 </div>
             </form>
-
             {displayPatient()}
+            
         </div>
     );
 }
