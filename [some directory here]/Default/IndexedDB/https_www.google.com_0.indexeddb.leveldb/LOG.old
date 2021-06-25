@@ -1,3 +1,0 @@
-2021/06/22-11:01:40.621 34eb Reusing MANIFEST /home/dev/poc/[some directory here]/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/06/22-11:01:40.622 34eb Recovering log #4
-2021/06/22-11:01:40.622 34eb Reusing old log /home/dev/poc/[some directory here]/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/000004.log 

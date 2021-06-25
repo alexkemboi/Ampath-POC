@@ -1,6 +1,0 @@
-2021/06/25-08:21:45.520 3 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/Session Storage/MANIFEST-000001
-2021/06/25-08:21:45.521 3 Recovering log #4
-2021/06/25-08:21:45.523 3 Reusing old log /home/dev/poc/[some directory here]/Default/Session Storage/000004.log 
-2021/06/25-10:22:25.899 13 Level-0 table #8: started
-2021/06/25-10:22:25.909 13 Level-0 table #8: 16591 bytes OK
-2021/06/25-10:22:25.913 13 Delete type=0 #4
