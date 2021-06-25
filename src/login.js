@@ -11,10 +11,10 @@ function Login() {
   const [username, setUsername] = useState();
   const path=useHistory();
   const [password, setPAssword] = useState();
-  const url = 'http://10.50.80.115:8090/amrs/ws/rest/v1/session';
+  const url = 'http://10.50.80.115:8091/amrs/ws/rest/v1/session';
   const handleSubmit = e =>{
     e.preventDefault();
-    
+    try{
     console.log(`${username} and ${password}`);
     const req=btoa(`${username}:${password}`);
     console.log(req);
@@ -28,10 +28,14 @@ function Login() {
 
     }
     else {alert("Wrong Username or password")}
+    
     }
 
     )
-    
+  }
+  catch{
+    alert("Error");
+  }
 
   }
 

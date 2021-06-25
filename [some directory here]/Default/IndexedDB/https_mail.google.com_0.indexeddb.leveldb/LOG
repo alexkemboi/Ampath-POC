@@ -1,0 +1,6 @@
+2021/06/25-10:53:41.047 2b48 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/25-10:53:41.047 2b48 Recovering log #4
+2021/06/25-10:53:41.064 2b48 Reusing old log /home/dev/poc/[some directory here]/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2021/06/25-10:53:57.104 2b7d Level-0 table #8: started
+2021/06/25-10:53:57.132 2b7d Level-0 table #8: 1893901 bytes OK
+2021/06/25-10:53:57.136 2b7d Delete type=0 #4
