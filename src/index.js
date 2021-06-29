@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import { Route, Link,Switch, BrowserRouter as Router } from 'react-router-dom'
-import Login from './login.js';
-import CreatePatient from './createPatient.js';
-import AppMain from './app.js';
+import Login from './components/login.js';
+import CreatePatient from './components/createPatient.js';
+import AppMain from './components/app.js';
+
 
 const routing =(  
     <Router>  

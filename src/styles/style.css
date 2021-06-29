@@ -1,0 +1,57 @@
+@import '~carbon-components/css/carbon-components.css';
+
+ .buttonlable {
+    margin-top: 10px;
+   color:white;
+   font-weight: bolder;
+   align-items: center;
+   width: 100px;
+   text-align-last: center;
+ }
+ 
+ .div1 {
+   text-align: center;
+   align-content: center;
+   position: relative;
+   width: 30%;
+   margin-left: 30%;
+   margin-top:5px;
+   border: 1px solid #ced4da;
+   padding: 5px;
+   margin-bottom: 15px;
+   background-color: white;
+   margin-top: 200px;
+ }
+ .datepicker{
+   width:100%;
+   background-color: orangered;
+ }
+ 
+ 
+ 
+ .div2 {
+    margin-top: 15px;
+   padding: 15px;
+    border: thick; 
+    border: 1px solid #ced4da;
+ }
+ 
+ 
+ 
+ .ttl{
+   margin-top: 15px;
+   border: 1px solid #ced4da;
+   padding:5px
+ }
+ .login{
+    font-weight: bolder;
+    font-size: xx-large;
+ }
+ .logname{
+    font-weight: bold;
+ }
+ body{
+   background-image:url('./unnamed.png') ;
+  
+ }
+ 

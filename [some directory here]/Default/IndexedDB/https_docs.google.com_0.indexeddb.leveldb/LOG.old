@@ -1,0 +1,6 @@
+2021/06/28-11:40:39.047 2207 Creating DB /home/dev/poc/[some directory here]/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb since it was missing.
+2021/06/28-11:40:39.058 2207 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/28-16:57:48.748 697f Level-0 table #5: started
+2021/06/28-16:57:48.756 697f Level-0 table #5: 8489 bytes OK
+2021/06/28-16:57:48.760 697f Delete type=0 #3
+2021/06/28-16:57:48.762 6af1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

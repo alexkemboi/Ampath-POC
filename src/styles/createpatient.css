@@ -1,0 +1,54 @@
+@import '~carbon-components/css/carbon-components.css';
+
+  .POC{
+align-items: center;
+align-content: center;
+  }
+  .title{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 15px;
+    padding:5px;
+    align-items: center;
+    margin-left: 500px;
+ }
+ .divcreate1 {
+    text-align: center;
+    align-content: center;
+    position: relative;
+    width: 800px;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color:white;
+    margin: 180px;
+    margin-left: 100px;
+    margin-bottom:30px ;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 0px;
+    display: flex;
+    
+  }
+  .buttonlablecreate{
+  
+    border: white solid;
+    font-size: large;
+    padding:1.5%;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+ 
+  }
+  .left {
+    margin-right: 10px;
+    text-align: center;
+    width: 4000px;
+    border: thin solid #ddd;
+  }
+  .right {
+    text-align: center;
+    padding: 10px;
+    width: 4000px;
+    border: thin solid #ddd;
+  }
+  

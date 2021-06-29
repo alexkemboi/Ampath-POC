@@ -1,0 +1,44 @@
+.divDashboard {
+    padding: 5%;
+    margin-bottom: 2%;
+    margin: 5px;
+    align-content:center;
+    position: relative;
+    text-align: center;
+    
+   
+  }
+  .divcommands{
+    border: 1px solid white;
+    background-color:grey;
+    align-content:center;
+    position: relative;
+  }
+  
+  .user_details{
+      font-weight: 900;
+      font-size: 40px;
+     
+    
+  }
+  .search {
+      color:white;
+      border:white solid 1px;
+    
+  }
+  .rowtable{
+    max-width: 100%;
+  }
+  .logout {
+    color: white;
+    padding-left: 20px;
+    font-size: 40px;
+    color: orange;
+  }
+  .table{
+    
+    height: 50px;
+  }
+  .roww{
+    width:100%
+  }
