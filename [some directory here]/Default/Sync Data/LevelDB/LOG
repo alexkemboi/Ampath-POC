@@ -1,3 +1,2 @@
-2021/06/29-08:58:20.968 2ff1 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/06/29-08:58:20.968 2ff1 Recovering log #3
-2021/06/29-08:58:20.968 2ff1 Reusing old log /home/dev/poc/[some directory here]/Default/Sync Data/LevelDB/000003.log 
+2021/06/30-08:55:24.619 308e Creating DB /home/dev/poc/[some directory here]/Default/Sync Data/LevelDB since it was missing.
+2021/06/30-08:55:24.652 308e Reusing MANIFEST /home/dev/poc/[some directory here]/Default/Sync Data/LevelDB/MANIFEST-000001

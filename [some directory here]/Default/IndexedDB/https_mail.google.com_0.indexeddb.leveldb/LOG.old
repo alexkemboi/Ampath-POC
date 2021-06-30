@@ -1,3 +1,0 @@
-2021/06/28-15:02:12.512 3897 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/06/28-15:02:12.512 3897 Recovering log #4
-2021/06/28-15:02:12.512 3897 Reusing old log /home/dev/poc/[some directory here]/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
