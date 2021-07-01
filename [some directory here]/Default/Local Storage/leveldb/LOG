@@ -1,9 +1,0 @@
-2021/07/01-09:17:37.315 5 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/Local Storage/leveldb/MANIFEST-000001
-2021/07/01-09:17:37.317 5 Recovering log #3
-2021/07/01-09:17:37.318 5 Reusing old log /home/dev/poc/[some directory here]/Default/Local Storage/leveldb/000003.log 
-2021/07/01-09:48:41.960 8 Level-0 table #5: started
-2021/07/01-09:48:41.997 8 Level-0 table #5: 366162 bytes OK
-2021/07/01-09:48:42.001 8 Delete type=0 #3
-2021/07/01-11:24:27.458 18 Level-0 table #7: started
-2021/07/01-11:24:27.461 18 Level-0 table #7: 16127 bytes OK
-2021/07/01-11:24:27.466 18 Delete type=0 #4

@@ -1,3 +1,0 @@
-2021/07/01-11:09:19.953 6d37 Reusing MANIFEST /home/dev/poc/[some directory here]/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/01-11:09:19.953 6d37 Recovering log #3
-2021/07/01-11:09:19.953 6d37 Reusing old log /home/dev/poc/[some directory here]/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/000003.log 
