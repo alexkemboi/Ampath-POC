@@ -1,7 +1,7 @@
 import '../styles/createpatient.css'
 import * as React from 'react';
-import { Button, TextInput, RadioButton, RadioButtonGroup, Select, SelectItemGroup,SelectItem } from 'carbon-components-react';
-import { useState, useEffect } from 'react';
+import { Button, TextInput, RadioButton, RadioButtonGroup, Select,SelectItem } from 'carbon-components-react';
+import { useState } from 'react';
 import axios from 'axios';
 import urlApi from '../components/resource.js'
 function CreatePatient() {
@@ -17,10 +17,10 @@ function CreatePatient() {
   const [identifier, setIdentifier] = useState();
   const [identifierType, setIdentifierType] = useState();
   const [location, setLocation] = useState();
-  const [items, setItems] = useState();
-  const [Preffered, setPrefered] = useState();
+  const [setPrefered] = useState();
   const session_id = sessionStorage.getItem("userDetails");
   const [person_uuid, setPersonUuid] = useState("");
+
 
   const handleSubmit = async (e) => {
    
@@ -70,16 +70,7 @@ function CreatePatient() {
     }
   }
 
-  const GetIdentifierType = () => {
-    return window
-      .fetch(`${urlApi}patientidentifiertype?&v=custom:(display,uuid)`)
-      .then((resp) => resp.json())
-      .then((result) => {
-        return result.results;
-      })
-      .catch((error) => alert("error", error));
-  };
-
+ 
 
 
   const create_patient = async (e) => {
@@ -146,8 +137,6 @@ function CreatePatient() {
           <RadioButton
             labelText="Female"
             value="F"
-
-
           />
         </RadioButtonGroup>
         < TextInput labelText="Village"
@@ -192,35 +181,13 @@ function CreatePatient() {
             id="select-1"
             invalidText="A valid value is required"
             labelText="Identifier Type"
+            
           >
             <SelectItem
               text="Choose an option"
               value="placeholder-item"
             />
-            <SelectItemGroup
-              label="Category 1"
-            >
-              <SelectItem
-                text="Option 1"
-                value="option-1"
-              />
-              <SelectItem
-                text="Option 2"
-                value="option-2"
-              />
-            </SelectItemGroup>
-            <SelectItemGroup
-              label="Category 2"
-            >
-              <SelectItem
-                text="Option 3"
-                value="option-3"
-              />
-              <SelectItem
-                text="Option 4"
-                value="option-4"
-              />
-            </SelectItemGroup>
+            
           </Select>
 
           < TextInput labelText="Identifier Type"

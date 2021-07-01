@@ -1,0 +1,2 @@
+2021/07/01-11:05:47.825 6bff Creating DB /home/dev/poc/[some directory here]/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2021/07/01-11:05:47.834 6bff Reusing MANIFEST /home/dev/poc/[some directory here]/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001

@@ -2,21 +2,21 @@ import '../styles/app.css'
 import * as React from 'react';
 //import Login from './login.js';
 import { Button, Pagination, Search, Table, TableBody, TableCell, TableHead, TableHeader, TableRow, } from 'carbon-components-react';
-import { NavLink, useHistory } from 'react-router-dom';
+import {  useHistory } from 'react-router-dom';
 import CreatePatient from './createPatient';
 import { Route } from 'react-router';
 import { useState } from 'react';
 import urlApi from '../components/resource.js'
 //import response from './login.js';
 import axios from 'axios';
-import { Modal } from 'carbon-components';
+
 const clientname = sessionStorage.getItem("clientname");
 console.log(clientname);
 function AppMain() {
     const [input, searchInput] = useState();
     const userName = sessionStorage.getItem("userDetails");
     const [rows, setRows] = useState([]);
-    const [open, setOpen] = useState(true);
+    
 
 
     const displayEncounters = (e) => {

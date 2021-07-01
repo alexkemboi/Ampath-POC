@@ -1,2 +1,3 @@
-2021/06/30-08:55:25.995 308a Creating DB /home/dev/poc/[some directory here]/Default/shared_proto_db/metadata since it was missing.
-2021/06/30-08:55:26.011 308a Reusing MANIFEST /home/dev/poc/[some directory here]/Default/shared_proto_db/metadata/MANIFEST-000001
+2021/07/01-09:17:38.250 525b Reusing MANIFEST /home/dev/poc/[some directory here]/Default/shared_proto_db/metadata/MANIFEST-000001
+2021/07/01-09:17:38.251 525b Recovering log #3
+2021/07/01-09:17:38.251 525b Reusing old log /home/dev/poc/[some directory here]/Default/shared_proto_db/metadata/000003.log 

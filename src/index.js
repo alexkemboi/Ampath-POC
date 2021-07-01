@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import { Route, Link,Switch, BrowserRouter as Router } from 'react-router-dom'
+import { Route,Switch, BrowserRouter as Router } from 'react-router-dom'
 import Login from './components/login.js';
 import CreatePatient from './components/createPatient.js';
 import AppMain from './components/app.js';

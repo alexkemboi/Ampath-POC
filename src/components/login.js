@@ -2,7 +2,6 @@ import '../styles/style.css'
 import { Button, TextInput } from 'carbon-components-react';
 import mr from "../images/mrs.jpeg";
 // import handleClick from './request.js';
-import AppMain from '../components/app.js'
 import { useState } from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
@@ -23,7 +22,7 @@ function Login() {
 
     axios.get(url,{headers:{Authorization:`Basic ${req}`}})
     .then(response=>{
-      console.log(response);
+     
       if(response.data.authenticated===true){
         sessionStorage.setItem("clientname",username);
         sessionStorage.setItem("userDetails",req);
